@@ -23,7 +23,7 @@ body .bck.color a,body .bck.dark a{color:#fff;}
 body .bck.color a.active,body .bck.dark a.active{color:#fff !important}
 body .text.shadow{-webkit-text-shadow:0 1px 1px rgba(0,0,0,0.5);-moz-text-shadow:0 1px 1px rgba(0,0,0,0.5);-ms-text-shadow:0 1px 1px rgba(0,0,0,0.5);-o-text-shadow:0 1px 1px rgba(0,0,0,0.5);text-shadow:0 1px 1px rgba(0,0,0,0.5)}
 body .color.white{color:#fff !important}
-body .color.theme{color:#1abc9c !important}
+body .color.theme{color:#f36c3d !important}
 body .color.link2{color:#fff !important}
 body .color.default{color:#4e555d !important}
 body form input[type="text"],body .form input[type="text"],body form input[type="password"],body .form input[type="password"],body form input[type="date"],body .form input[type="date"],body form input[type="datetime"],body .form input[type="datetime"],body form input[type="email"],body .form input[type="email"],body form input[type="number"],body .form input[type="number"],body form input[type="search"],body .form input[type="search"],body form input[type="tel"],body .form input[type="tel"],body form input[type="time"],body .form input[type="time"],body form input[type="url"],body .form input[type="url"],body form select,body .form select,body form textarea,body .form textarea{background-color:#fff;color:#34495e;border:2px solid #dce4ec;-webkit-border-radius:4px;-moz-border-radius:4px;-ms-border-radius:4px;-o-border-radius:4px;border-radius:4px;-webkit-transition:border-color 400ms;-moz-transition:border-color 400ms;-ms-transition:border-color 400ms;-o-transition:border-color 400ms;transition:border-color 400ms;}
