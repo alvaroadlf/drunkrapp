@@ -1,83 +1,72 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>tuktuk - Landing Example</title>
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="css/tuktuk.css">
+    <link rel="stylesheet" href="css/tuktuk.theme.drunkr.css">
+    <!-- TUKTUK.WIDGETS -->
+    <link rel="stylesheet" href="css/tuktuk.icons.css">
+    <style>
+        body > header .logo {
+            margin-top: 8px;
+            margin-right: 8px;
+            max-height: 30px; }
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+        body > footer img {
+            height: 18px;
+            position: relative;
+            top: 5px;
+            left: 2px; }
 
-    <title>Drunkr: no más multas</title>
-  </head>
+        section.landing input {
+            border-radius: 1px 0px 0px 1px !important;
+            height: 48px;}
 
-  <body>
-    <header>
-      <div class="inner">
-        <h1>drunkr</h1>
-        <h2>no más multas</h2>
-        <a href="https://github.com/alvaroaraoz/nomasmultas" class="button"><small>View project on</small>GitHub</a>
-      </div>
-    </header>
+        section.landing button {
+            border-radius: 0px 1px 1px 0px !important;
+            height: 48px;}
 
-   <!-- <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+        .button.large, button.large {
+            font-size: 1.3em;}
+    </style>
+</head>
+<body>
+    <section class="bck theme landing text center">
+        <div class="row text center book margin-bottom">
+            <div class="column_10 offset_1">
+                <h1 class="color white"><strong>drunkr</strong></h1>
+                <h3>no más multas</h3>
+            </div>
+        </div>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-        </section>
-
-        <aside id="sidebar">
-          <a href="http://play.google.com" class="button">
-            <small>Google Play</small>
-            .zip file
-          </a>
-          <a href="http://drunkr.cf" class="button">
-            <small>iOS & versión Online</small>
-            .tar.gz file
-          </a>
-
-          <p class="repo-owner"><a href="https://github.com/alvaroaraoz/nomasmultas"></a> is maintained by <a href="https://github.com/alvaroaraoz">alvaroaraoz</a>.</p>
-
-          <p>This page was generated by <a href="pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
-        </aside>
-      </div>
-    </div> -->
-
-  
-  </body>
+        <div class="row">
+            <div class="offset_2 column_4">
+                <a href="#" class="button large secondary anchor"><strike><span class="icon download"></span>Android</strike></a>
+            </div>
+            <div class="column_4">
+                <a href="http://drunkr.cf" class="button large anchor"><span class="icon mobile-phone"></span>iOS</a>
+            </div>
+        </div>
+    </section>
+  <footer class="bck dark padding">
+        <div class="row margin-top margin-bottom">
+            <div class="column_5">
+                <p class="text bold big">Hecho a mano por <a href="http://appfilia.co.uk" class="display inline">Appfilia</a></p>
+                 otra compañia de <a href="http://webpainters.co.uk" class="display inline"><span class="text normal"></span>From exile in UK Ltd.</span></a>.
+            </div>
+            <div class="column_4">
+                <p class="text bold big">Contáctanos</p>
+                <a href="mailto:hello@fromspainto.me?subject=Hey" class="text underline color link2">¡Haznos saber quién eres!</a>
+            </div>
+            <div class="column_3">
+                <p class="text bold big">¿Tienes alguna duda?</p>
+                Síguenos en <a href="https://twitter.com/fromspaintome" target="_blank" class="text underline color link2">Twitter</a> o en <a href="https://twitter.com/fromspaintome" target="_blank" class="text underline color link2">Facebook</a>
+            </div>
+    </footer>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="js/tuktuk.js"></script>
+</body>
 </html>
